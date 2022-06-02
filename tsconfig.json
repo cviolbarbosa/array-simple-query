@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": false,
+      "strictPropertyInitialization": false,
+      "noImplicitAny": false,
+      "alwaysStrict": false,
+      "lib": ["es5","es6", "dom"],
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "sourceMap": false,
+      "strict": false,
+      "target": "es6",
+      "declaration": true
+    },
+    "include": [
+      "src/**/*",
+      "types"
+    ]
+  }
