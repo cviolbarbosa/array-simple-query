@@ -27,7 +27,7 @@
 
 ## About The Project
 
-Convenient functions to query and change objects in a JavaScript array. It is useful to manipulate local storages  mirroring a server database.
+Convenient functions to query and change objects in a JavaScript array. It is useful to manipulate local storages mirroring a server database.
 
 
 ### List of features
@@ -47,7 +47,7 @@ $ npm i array-simple-query  --save
 
 ```js 
 
-import * as ASQ from 'array-symple-query';
+import * as ASQ from 'array-simple-query';
 
 const books = [{ 'id': 1, 'title': 'English course', 'author': {first_name: 'Joe', last_name:'Doe'},       'year': 2009 },
             { 'id': 2, 'title': 'Italian course', 'author': {first_name: 'Pinco', last_name:'Pallino'}, 'year': 2010 },
