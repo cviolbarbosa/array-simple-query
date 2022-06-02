@@ -14,7 +14,7 @@
   <p align="center">
     A convenient lib to manipulate object in JavaScript arrays.
     <br />
-    <a href="https://github.com/cviolbarbosa/array-simple-query/"><strong>Explore the docs »</strong></a>
+    <a href="https://cviolbarbosa.github.io/array-simple-query/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/">View Demo</a>
@@ -27,7 +27,7 @@
 
 ## About The Project
 
-Convenient functions to query and change objects in a JavaScript array. It is useful to manipulate local storages  mirroring a sever database.
+Convenient functions to query and change objects in a JavaScript array. It is useful to manipulate local storages  mirroring a server database.
 
 
 ### List of features
@@ -64,7 +64,7 @@ const pallinosBook = ASQ.getObject(books, {'author.last_name':'Pallino'});
 const nonGermanBooks = ASQ.filterObjects(books,{'!title': 'German course'});
 
 //deletion
-const positionOfDeletedElements = ASQ.deleteObjects(bookss, {'year': 2009});
+const positionOfDeletedElements = ASQ.deleteObjects(books, {'year': 2009});
 ```
 
 
