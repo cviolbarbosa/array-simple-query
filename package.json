@@ -1,6 +1,6 @@
 {
   "name": "array-simple-query",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A convenient lib to manipulate objects in JavaScript arrays.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

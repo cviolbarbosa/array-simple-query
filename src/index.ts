@@ -56,6 +56,7 @@ function getNestedValue(obj: any, nestedField:any, value = null): any {
 
 /**
  * This method returns a new object array composed of elements whose id numbers are found in a given list.
+ * The new object array will have the same order as in the id list.
  * In case no match is found, it returns an empty array.
  *
  *
